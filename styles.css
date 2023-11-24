@@ -1,0 +1,76 @@
+/* Regla 1 */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+/* Regla 2 */
+img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Regla 3 */
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Regla 4 */
+.contenedor h1 {
+    display: inline;
+    vertical-align: middle;
+}
+
+.contenedor h1 img {
+    width: 25%;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+/* Regla 5 */
+h1 {
+    text-decoration: underline;
+    color: darkblue;
+    text-align: center;
+}
+
+/* Regla 6 */
+h2.selector,
+#universal {
+    background-color:darkblue;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+/* Regla 7 */
+.fin img {
+    width: 30%;
+    margin-left: 310px;
+    border: 1px solid white;
+}
+
+/* Regla 8 */
+.cuadro1,
+.cuadro2,
+.cuadro3,
+.cuadro4,
+.cuadro5,
+.cuadro6 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Regla 9 */
+.cuadro4,
+.cuadro5,
+.cuadro6 {
+    /* Estilo adicional específico para cuadro4, cuadro5, cuadro6 */
+}
+
+/* Regla 10 */
+.selector {
+    text-decoration: underline white;
+}
